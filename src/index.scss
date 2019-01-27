@@ -1,3 +1,16 @@
+$color1: rgba(17, 75, 95, 1);
+$color2: rgba(26, 147, 111, 1);
+$color3: rgba(136, 212, 152, 1);
+$color4: rgba(198, 218, 191, 1);
+$color5: rgba(243, 233, 210, 1);
+
+$white: #FFF;
+$black: #111;
+$darker-grey: #21252A;
+$dark-grey: #343A40;
+$grey: #ADB5BD;
+$light-grey: #E9ECEE;
+
 body {
   margin: 0;
   padding: 0;
@@ -6,6 +19,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: $darker-grey;
 }
 
 code {
